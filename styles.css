@@ -25,3 +25,21 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    margin: 10px 0 0 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
