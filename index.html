@@ -41,6 +41,19 @@
     <h2>Mis on MVP?</h2>
     <p>MVP on toote minimaalne versioon, mis sisaldab ainult põhifunktsionaalsust, et rahuldada esmaseid kasutajate vajadusi. Selle eesmärk on kiiresti välja anda toode turule, koguda kasutajate tagasisidet ja iteratiivselt täiustada toodet.</p>
 </section>
+
+<section id="git-guide">
+    <h2>Kuidas teha remote repo?</h2>
+    <p>Remote repo loomiseks loo uus repositoorium GitHub-is ja kasuta järgmisi käske:</p>
+    <pre>echo "DavidVebileht" >> README.md. Loob README.md faili ja lisab sellele teksti "DavidVebileht"
+        git init. Initsialiseerib Git'i kohalikus kaustas
+        git add README.md. Lisab README.md faili staging area'sse
+        git commit -m "first commit". Teeb esimese commiti koos kirjeldusega "first commit"
+        git branch -M main. Muudab vaikeharu nime "master" -> "main"
+        git remote add origin https://github.com/DavidMyrseth/zig.git. Seob kohaliku repo GitHubiga
+        git push -u origin main. Saadab muudatused GitHubi reposse
+    </pre>
+</section>
     
 <section id="skills">
     <h2>Mida ma oskan teha arvuti taga</h2>
