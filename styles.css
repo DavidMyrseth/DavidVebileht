@@ -43,6 +43,25 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+#validator-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.validator-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.validator-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 section {
     margin: 20px;
     padding: 20px;
